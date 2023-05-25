@@ -1,0 +1,393 @@
+html{
+    /* background: linear-gradient(pink,rgb(190, 143, 211),rgb(216, 113, 216)); */
+
+    background-color:#21000f;
+
+}
+.body{
+  transition: all 0.5s ease-in-out;
+  opacity: 10;
+    width: 99%;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+body.fade-out {
+  opacity: 0; /* Cambia la opacidad del elemento a 0 durante la transición */
+}
+img {
+    width: 200px;
+    border-radius: 30px;
+}
+
+.header{
+  
+  align-items: center;
+  border-radius: 20px;
+    background-color:#450b1e;
+    padding: 3px;
+    color:black;
+    margin: 0.5%;
+    /* border-style: inset;
+    border-color: black; */
+    font-size: 200%;
+    
+    
+}
+.centrotexto {
+  color: beige;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+.nav{
+  border-radius: 20px;
+
+    background-color:#84b09b;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 0.5%;
+    /* border-style: inset;
+    border-color: black; */
+
+
+    }
+
+.listahorizontal {
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+text-align: center;
+    /* background-color: rgb(199, 199, 219); */
+    list-style:none;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    height: 40px;
+font-size: 20px;
+margin: 1px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  
+  
+
+}
+
+.aside{
+  width: 530px;
+  height: 600px;
+  /* border: 2px solid red; */
+  border-radius: 10px;
+   float: right; 
+   background-color: #84b09b;
+
+    /* border-style: inset;
+    border-color: black; */
+}
+
+
+.section{
+  margin-bottom: 90%;
+  float: right;
+  border-radius: 20px;
+background-color:lightgray;
+padding: 90px;
+width: 1000px;
+height: 300px;
+margin: 0.5%;
+
+
+}
+
+.footer{
+  align-items: center;
+  font-size: 50px;
+  border-radius: 20px;
+    /* background-color:blue; */
+    color: #000000;
+    padding: 10px;
+    margin-bottom:10%;
+text-align: center;
+margin: 0.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.listadecontacto{   
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    list-style:none;
+    text-transform: uppercase;
+}
+
+/* li:hover {
+  background:rgb(190, 143, 211);
+  border-radius: 40%;
+
+  }
+  
+  li:active {
+    background: whitesmoke;
+    color: white; */
+
+  /* } */
+  li{ text-align: center
+    ;}
+
+
+      .icono {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .nombre {
+        position: absolute;
+        left: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #fff;
+        padding: 5px;
+        white-space: nowrap;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .icono:hover .nombre {
+        left: 1;
+        opacity: 2;
+    }
+    
+
+    li:hover {
+      /* estilo del icono cuando se pasa el cursor por encima */
+      
+
+    }
+    li:hover::after {
+
+    }
+
+    .listahorizontal .item {
+      position: relative;
+      display: inline-block;
+      margin: 0 10px;
+    }
+    
+    .listahorizontal .item:before {
+      background-color: lightgray;
+
+      content: attr(data-title);
+      position: absolute;
+      top: 100%;
+      left: 60%;
+      transform: translateY(-100%);
+      opacity: 0;
+      transition: opacity 0.3s ease-out;
+      pointer-events: none;
+    }
+    
+    .listahorizontal .item:hover:before {
+      opacity: 1;
+    }
+    
+    .listahorizontal .item:before > span {
+      display: inline-block;
+      opacity: 50;
+      transform: translateY(-90px);
+      animation: show-letter 0.2s forwards;
+        }
+    
+    @keyframes show-letter {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .h3{
+      font-family: Arial, Helvetica, sans-serif;
+
+    }
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  
+    .botones{
+      list-style:none;
+
+      display: flex;
+      padding: 3px;
+      margin: 0.5%;
+    border-radius: 20px;
+      text-align: center;
+      align-items: center;
+      height: 30px;
+      width: auto;
+    background-color: rgb(236, 16, 236);
+    }
+
+.boton1{
+  margin: 100px;
+  border-radius: 10px;
+}
+
+.boton2{
+  margin: 100px;
+  border-radius: 10px;
+}
+
+.boton3{
+  margin: 100px;
+  border-radius: 10px;
+}
+
+.boton4{
+  margin: 100px;
+  border-radius: 10px;
+}
+
+   .advertencia{
+    margin-top: 6%;
+     margin-left: 10%; 
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+    background-color:#410b18;
+    height: 270px;
+    width: 80%;
+    color:white;
+   }
+
+   .acepto{
+    float: right;
+    margin-right: 45%;
+    height: 60px; 
+    width: 100px;
+    align-items: center;
+     background-color: #21000f;
+     border-style: none;
+     border-radius: 20px;
+   
+  }
+
+
+
+
+
+
+
+  
+
+
+.sergio{
+  margin-left: 20%;
+border-radius: 40px;
+
+}
+
+
+
+.post {
+  background-image: linear-gradient(rgb(107, 82, 36), rgb(109, 47, 47));
+  padding: 20px;
+  margin-bottom: 30px;
+border: 1px solid #ffffff;
+border-radius: 60px;
+box-shadow: 0 0 20px 20px black ;
+
+}
+
+.post h2 {
+  margin-top: 0;
+}
+
+.acciones {
+  gap: 180px;
+
+margin-left:20% ;
+  align-items: center;
+  display: flex;
+  /* justify-content:space-around; */
+  margin-top: 20px;
+}
+
+.acciones button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #555;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+.acciones button:hover {
+  color: #000000;
+transform: scale(1.1);
+}
+.acciones button:active {
+  transform: scale(0.9);
+}
+
+
+.acciones button i {
+  margin-right: 5px;
+}
+
+.comentarios {
+  margin-top: 30px;
+}
+
+.comentarios h3 {
+  margin-bottom: 20px;
+}
+
+.comentarios ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comentarios li {
+  margin-bottom: 20px;
+}
+
+.comentario {
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.comentario p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.comentario .autor {
+  display: block;
+  margin-top: 5px;
+  color: #ffffff;
+  font-size: 14px;
+}
+.perfilpic{
+  width: 45px;
+  height: 45px;
+  border-radius: 20px;
+  float: left;
+  margin-left: 3%;
+margin: 5.5px;
+}
+
+.centro{ 
+  color: black;
+  height: 20px;
+  font-size: 20px;
+}
+
+.txt{
+  text-align: center;
+}
+.reciente{
+  text-align: center;
+}

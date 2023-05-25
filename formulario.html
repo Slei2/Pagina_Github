@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="formulario.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script>
+        function login() {
+          var usuario = document.getElementById("user").value;
+          var password = document.getElementById("password").value;
+    
+          if (usuario === "araña" && password === "123456") {
+            window.location.href = 'humildesopiniones.html';
+          } else {
+            alert("Usuario incorrecto");
+          }
+        }
+    </script>
+</head>
+<body>
+    <form class="form" onsubmit="event.preventDefault(); login();">
+        <h2 class="form_title">Inicia Sesión</h2>
+        <p class="form_parrafo">¿Aún no tienes una cuenta creada? <a href="regis2.html" class="form_link">Entra aquí</a></p>
+        <div class="content_form">
+            <div class="form_group">
+                <input type="text" id="user" class="form_input" placeholder=" ">
+                <label for="user" class="form_label">Usuario:</label>
+                <span class="form_line"></span>
+            </div>
+            <div class="form_group">
+                <input type="password" id="password" class="form_input" placeholder=" ">
+                <label for="password" class="form_label">Contraseña:</label>
+                <span class="form_line"></span>
+            </div>
+            
+            <input type="submit" class="form_submit" value="Entrar">
+        </div>
+    </form>
+
+
+<!-- 
+    <form>
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" required>
+        <br>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="button" onclick="login()">Iniciar sesión</button>
+      </form>
+ -->
+
+
+
+
+
+</body>
+</html>

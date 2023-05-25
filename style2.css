@@ -1,0 +1,850 @@
+  /* Estilos para pantallas más pequeñas */
+  @media only screen and (max-width: 768px) {
+    body {
+      font-family: 'Crimson Pro', serif;
+      background-color: #FFA2C4;
+      transition: all 0.5s ease-in-out;
+      opacity: 1;
+    }
+    
+    .listadecontacto {
+      display: grid;
+      display: inline-block;
+      text-transform: uppercase;
+      list-style: none;
+      grid-template-columns: repeat(2, 1fr);
+      font-size: 16px;
+    }
+    
+    .dropdown {
+      margin-top: 20%;
+      margin-left: 45%;
+      position: relative;
+      display: inline-block;
+      margin-bottom: 3%;
+    }
+    
+    .dropbtn {
+      float: right;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: -150px;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    
+    .show {
+      display: block;
+    }
+    
+    .dropbtn {
+      border-radius: 50%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    
+    .registro-form {
+      float: right;
+      margin-right: 40%;
+      margin-top: 10%;
+      max-width: 300px;
+      padding: 20px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+    }
+    
+    .registro-form h2 {
+      text-align: center;
+    }
+    
+    .registro-form input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+    
+    .registro-form button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4caf50;
+      color: #fff;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .imagen {
+      float: right;
+      width: 30px;
+      height: 30px;
+      border-radius: 250px;
+      transition: transform 0.2s;
+    }
+    
+    .imagen:hover {
+      transform: scale(1.5);
+    }
+    
+    #img1 {
+      width: 250px;
+      height: 280px;
+      margin-right: 5%;
+    }
+    
+    #img2 {
+      width: 250px;
+      height: 280px;
+    }
+    
+    #img3 {
+      width: 250px;
+      height: 280px;
+      float: right;
+    }
+    
+    .header {
+      background-color: #9e2d4a;
+    }
+    
+    .animar-imagen {
+      width: 150px;
+      height: 150px;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    .inicio1 {
+      background-color: beige;
+    }
+    
+    .botones {
+      position: fixed;
+      top: 0;
+     
+    
+    }
+  }
+
+/* Estilos para pantallas medianas y grandes */
+@media only screen and (min-width: 769px) {
+  .sec1 {
+    width: 1200px;
+  }
+  
+  .sec2 {
+    width: 600px;
+  }
+  .imagen {
+    width: 60px;
+    height: 60px;
+  }
+  
+  #img1 {
+    width: 500px;
+    height: 550px;
+  }
+  
+  #img2 {
+    width: 500px;
+    height: 550px;
+  }
+  
+  #img3 {
+    width: 500px;
+    height: 550px;
+  }
+  .boton1 {
+    margin: 300px;
+  }
+  
+  .boton2 {
+    margin-left: 800px;
+  }
+  
+  .boton3 {
+    margin-left: 1200px;
+  }
+  
+  .boton4 {
+    margin-right: 200px;
+  }
+      
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+font-family: 'Crimson Pro', serif;
+background-color:#FFA2C4;
+transition: all 0.5s ease-in-out;
+opacity: 1;
+}
+
+
+
+/* .nav{
+background-color: rgba(80, 170, 197, 0.445);
+padding: 10px;
+justify-content: space-between;
+margin: 0.5%;
+border-style: inset;
+border-color: black;
+} */
+
+/* .listahorizontal {
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+background-color: lightgray;
+list-style:none;
+display: grid;
+grid-template-columns: 20% 20% 20% 20% 20%;
+height: 40px;
+font-size: 20px;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+
+
+
+} */
+.listadecontacto{
+display: grid;
+display: inline-block;
+text-transform: uppercase;
+list-style:none;
+grid-template-columns: 20% 20% 20% 20% 20%;
+font-size: 25px;
+list-style:none;
+
+}
+
+.dropdown {
+ 
+ margin-top: 20%;
+  margin-left: 45%;
+
+   position: relative;
+  display: inline-block;
+  margin-bottom: 3%;
+}
+
+.dropbtn {
+  float: right;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: -150px; /* La altura a la que quieres que se despliegue hacia arriba */
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+
+.dropbtn{
+      border-radius: 50%; /* Hace que el botón tenga una forma redonda */
+      background-color: #4CAF50; /* Cambia el color de fondo del botón */
+      color: white; /* Cambia el color del texto del botón */
+      padding: 10px 20px; /* Cambia el espaciado interno del botón */
+      border: none; /* Quita el borde del botón */
+      cursor: pointer; /* Cambia el cursor del ratón cuando se pasa sobre el botón */
+    
+      
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        
+        
+}
+
+.registro-form {
+  float: right;
+  margin-right: 40%;
+  margin-top: 10%;
+  max-width: 300px;
+
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.registro-form h2 {
+  text-align: center;
+}
+
+.registro-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.registro-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.imagen {
+float: right;
+ width: 40px;
+height: 40px;
+border-radius: 250px;
+transition: transform 0.2s;
+}
+.imagen:hover {
+transform: scale(1.5);
+
+} 
+
+
+
+#img1  {
+width: 350px;
+height: 380px;
+margin-right:10%;
+                }
+
+
+#img2  {
+width: 350px;
+height: 380px;
+    }
+
+#img3 {
+      width: 350px;
+      height: 380px;
+
+float: right;          }
+
+
+
+
+
+.header{
+background-color:#9e2d4a;
+
+}
+
+
+.animar-imagen {
+width: 200px;
+height: 200px;
+transition: all 0.3s ease-in-out;
+}
+
+.inicio1{
+background-color: beige;
+}
+
+.botones{
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+list-style:none;
+display: flex;
+text-align: center;
+align-items: center;
+height: 30px;
+width: 1350px;
+background-color:#742373;
+} 
+
+.boton1{
+margin: 200px;
+border-radius: 10px;
+}
+
+.boton2{ color: #ddd;
+margin-left: 500px;
+border-radius: 10px;
+}
+
+.boton3{
+margin-left:1100% ;
+color: #ddd;
+width: 20px;
+border-radius: 10px;
+}
+
+.boton4{
+color: #ddd;
+border-radius: 10px;
+}
+
+
+.sec1{
+border-radius: 30px;
+margin-top: 40px;
+float: right;
+margin-right: 1%;
+background-color:#e7219c;
+height: auto;
+width:1300px;
+
+
+}
+
+.sec2 {
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(0);
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 0%;
+  height: 80px;
+  width: 1350px;
+}
+
+.sec2.hidden {
+  transform: translateY(-100%);
+}
+
+
+
+.section{
+text-align: center;
+align-items: center;
+border-radius: 20px;
+background-color:lavender;
+height: 50px;
+width:700px;
+margin: 0.5%;
+
+}
+
+
+.acceder{
+margin-top: 5%;
+}
+
+
+/* .seccion1{
+background-color: #9e2d4a;
+}
+.seccion2{
+background-color: #9e2d4a;
+}
+.seccion3{
+background-color: #9e2d4a;
+}
+.seccion4{
+background-color: #9e2d4a;
+} */
+
+.emphasized { font-style: italic; }
+
+
+.icono {
+font-size: 24px;
+margin-right: 10px;
+}
+.icono:hover::before {
+content: attr(title);
+position: absolute;
+background-color: black;
+color: white;
+padding: 5px;
+border-radius: 5px;
+top: 30px;
+left: 0;
+}
+
+.icon-container {
+position: relative;
+display: inline-block;
+}
+
+.icon-text {
+display: none;
+position: absolute;
+left: 30px; /* ajusta la posición del texto */
+top: 0;
+}
+
+.icon-container:hover .icon-text {
+display: block;
+}
+
+
+.perfilpic{
+width: 45px;
+height: 45px;
+border-radius: 20px;
+float: left;
+margin-left: 3%;
+margin: 5.5px;
+}
+
+
+
+
+
+.centro{ 
+color: black;
+height: 20px;
+font-size: 20px;
+}
+
+
+
+.sergio{
+margin-left: 20%;
+border-radius: 40px;
+
+}
+
+
+
+.post {
+padding: 20px;
+margin-bottom: 30px;
+/* border: 1px solid #ffffff; */
+
+}
+
+.post h2 {
+margin-top: 0;
+}
+
+.acciones {
+  gap: 180px;
+
+margin-left:20% ;
+  align-items: center;
+  display: flex;
+  /* justify-content:space-around; */
+  margin-top: 20px;
+}
+
+.acciones button {
+border: none;
+background-color: transparent;
+cursor: pointer;
+color: #555;
+font-size: 16px;
+font-weight: bold;
+transition: color 0.2s ease-in-out;
+}
+
+.acciones button:hover {
+color: #000000;
+transform: scale(1.1);
+}
+.acciones button:active {
+transform: scale(0.9);
+}
+
+
+.acciones button i {
+margin-right: 5px;
+}
+
+.comentarios {
+margin-top: 30px;
+}
+
+.comentarios h3 {
+margin-bottom: 20px;
+}
+
+.comentarios ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.comentarios li {
+margin-bottom: 20px;
+}
+
+.comentario {
+border: 1px solid #eee;
+padding: 10px;
+}
+
+.comentario p {
+margin: 0;
+font-size: 16px;
+}
+
+.comentario .autor {
+display: block;
+margin-top: 5px;
+color: #ffffff;
+font-size: 14px;
+}
+
+
+
+
+h3{
+text-align: center;
+}
+
+.barra-pensando {
+display: flex;
+align-items: center;
+/* background-color: #9e166a;  */
+border: 1px solid #ddd;
+padding: 10px;
+}
+
+.barra-pensando img {
+border-radius: 50%;
+height: 40px;
+margin-right: 10px;
+width: 40px;
+}
+
+.barra-pensando textarea {
+border: none;
+flex: 1;
+font-size: 16px;
+padding: 10px;
+}
+
+.barra-pensando button {
+background-color: #3b5998;
+border: none;
+color: #fff;
+cursor: pointer;
+font-size: 16px;
+font-weight: bold;
+padding: 10px;
+}
+
+.barra-pensando button:hover {
+background-color: #8095c0;
+}
+
+
+.historias {
+display: flex;
+justify-content: center;
+gap: 10px;
+padding: 5px;
+background-color: #fff;
+}
+
+.historia {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 80px;
+}
+
+.historia img {
+border-radius: 50%;
+height: 60px;
+width: 60px;
+}
+
+.historia h4 {
+margin-top: 5px;
+font-size: 14px;
+text-align: center;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+.historia:hover img {
+filter: brightness(0.8);
+cursor: pointer;
+}
+
+
+
+
+
+
+.notification-section {
+background-color: #f6f7f9;
+padding: 10px;
+border-radius: 5px;
+width: 1320px;
+}
+
+.notification-section h3 {
+font-size: 18px;
+font-weight: bold;
+margin-top: 0;
+margin-bottom: 10px;
+}
+
+.notification-section ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.notification-item {
+display: block;
+padding: 10px;
+background-color: #fff;
+border-radius: 5px;
+border-bottom: 1px solid #ddd;
+color: #333;
+text-decoration: none;
+transition: background-color 0.2s ease-in-out;
+}
+
+.notification-item:hover {
+background-color: #f1f1f1;
+}
+
+.notification-icon {
+display: inline-block;
+width: 20px;
+text-align: center;
+margin-right: 10px;
+}
+
+.notification-icon i {
+font-size: 16px;
+}
+
+.notification-content {
+display: inline-block;
+vertical-align: top;
+width: calc(100% - 30px);
+}
+
+.notification-title {
+font-size: 14px;
+font-weight: bold;
+display: block;
+}
+
+.notification-time {
+font-size: 12px;
+color: #999;
+}
+
+
+
+
+
+.notif{
+margin-top: 20px;
+margin-left: 10px;
+}
+
+
+
+
+
+
+.mdoscuro{
+background-color:#742373;
+color: beige;
+border-radius: 20px;
+width: auto;
+height: 30px;
+margin-left:30% ;
+
+}
+
+
+
+.txt{
+color: black;
+}
+
+
+
+
+.regis{
+text-align: center;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+background-color: lightgray;
+list-style:none;
+margin-top: 3%;
+color: #333;
+}
+
+
+
+.publicacion {
+border: 1px solid #ccc;
+padding: 10px;
+margin: 10px;
+max-width: 500px;
+}
+
+#texto-publicacion{
+  text-align: center ;
+}
+
+

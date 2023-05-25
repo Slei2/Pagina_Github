@@ -1,0 +1,36 @@
+body {
+	background-color: #3f3b3b;
+	color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #333;
+}
+
+a {
+	color: #007bff;
+}
+
+.sec1{
+
+   
+    background-color:#976297;
+  
+  }
+  
+  
+  .sec2{
+
+    background-color:#976297;
+
+  }
+  
+  .post {
+   
+  
+  }
+
+  .sec1{
+    border: 2px solid #1f1010;
+
+  }

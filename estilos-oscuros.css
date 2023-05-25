@@ -1,0 +1,29 @@
+
+body.dark-mode {
+	background-color: #333;
+	color: #fff;
+}
+
+h1.dark-mode, h2.dark-mode, h3.dark-mode, h4.dark-mode, h5.dark-mode, h6.dark-mode {
+	color: #fff;
+}
+
+a.dark-mode {
+	color: #00ccff;
+}
+
+
+.sec1 {
+
+    background-color:#e7219c;
+   
+  }
+  
+  
+  .sec2{
+    
+    background-color:#e7219c;
+   
+    
+  }
+  
