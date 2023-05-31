@@ -28,6 +28,21 @@
   contenedorPublicaciones.appendChild(nuevoDiv);
 });
 
+
+
+
+
+var prevScrollpos = window.pageYOffset;
+		function scrollFunction() {
+			var currentScrollPos = window.pageYOffset;
+			if (prevScrollpos > currentScrollPos) {
+				document.getElementById("barra").style.top = "0";
+			} else {
+				document.getElementById("barra").style.top = "-50px";
+			}
+			prevScrollpos = currentScrollPos;
+		}
+
 </script>
 
 
@@ -100,7 +115,7 @@
           <div class="comentario">
            
             <span class="autor">Slei</span>
-         <p>Yo ya sabia</p>
+         <p>Yo ya sabia pero ajaa</p>
           </div>
         </li>
         <li>
