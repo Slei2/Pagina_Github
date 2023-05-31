@@ -1,4 +1,8 @@
-  /* Estilos para pantallas más pequeñas */
+
+
+
+
+/* Estilos para pantallas más pequeñas */
   @media only screen and (max-width: 768px) {
     body {
       font-family: 'Crimson Pro', serif;
