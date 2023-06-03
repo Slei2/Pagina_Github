@@ -655,12 +655,23 @@ text-align: center;
 }
 
 .barra-pensando {
-display: flex;
+/* display: flex;
 align-items: center;
-/* background-color: #9e166a;  */
+background-color: #9e166a;  
 border: 1px solid #ddd;
-padding: 10px;
+padding: 10px; */
+
+
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+list-style:none;
+display: flex;
+text-align: center;
+align-items: center;
+height: 30px;
+width: 1350px;
+background-color:#742373;
 }
+
 
 .barra-pensando img {
 border-radius: 50%;
