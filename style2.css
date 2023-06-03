@@ -446,7 +446,7 @@ border-radius: 10px;
 
 .sec1{
 border-radius: 30px;
-margin-top: 40px;
+margin-top: 20px;
 float: right;
 margin-right: 1%;
 background-color:#e7219c;
@@ -457,13 +457,10 @@ width:1300px;
 }
 
 .sec2 {
-  top: 0;
-  left: 0;
-  transition: transform 0.3s ease-in-out;
-  transform: translateY(0);
+  
+
   text-align: center;
-  margin-top: 50px;
-  margin-left: 0%;
+  margin-top: 40px;
   height: 80px;
   width: 1350px;
 }
@@ -655,23 +652,12 @@ text-align: center;
 }
 
 .barra-pensando {
-/* display: flex;
+display: flex;
 align-items: center;
 background-color: #9e166a;  
 border: 1px solid #ddd;
-padding: 10px; */
-
-
-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-list-style:none;
-display: flex;
-text-align: center;
-align-items: center;
-height: 30px;
-width: 1350px;
-background-color:#742373;
+padding: 10px;
 }
-
 
 .barra-pensando img {
 border-radius: 50%;
