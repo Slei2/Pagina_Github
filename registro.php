@@ -18,11 +18,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nombre = $_POST["nombre"];
     $apellido = $_POST["apellido"];
     $correo = $_POST["correo"];
-    $contrasena = $_POST["contrasena"];
+    $contraseña = $_POST["contraseña"];
 
     // Insertar los datos en la tabla de usuarios
-    $sql = "INSERT INTO 'registro' (nombre, apellido, correo, contrasena)
-            VALUES ('$nombre', '$apellido', '$correo', '$contrasena')";
+    $sql = "INSERT INTO registro (nombre, apellido, correo, contraseña)
+            VALUES ('$nombre', '$apellido', '$correo', '$contraseña')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Registro exitoso";
