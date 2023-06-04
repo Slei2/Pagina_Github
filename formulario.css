@@ -15,7 +15,7 @@ body{
     display: flex;
     padding: 0 10px;
 
-  /* Animación de zoom del fondo */
+  /* Animación de zoom del fondooo */
   background-size: cover;
   animation: zoomBackground 10s linear infinite;
 
