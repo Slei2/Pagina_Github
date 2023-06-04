@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $contrasena = $_POST["contrasena"];
 
     // Insertar los datos en la tabla de usuarios
-    $sql = "INSERT INTO registro (nombre, apellido, correo, contrasena)
+    $sql = "INSERT INTO 'registro' (nombre, apellido, correo, contrasena)
             VALUES ('$nombre', '$apellido', '$correo', '$contrasena')";
 
     if ($conn->query($sql) === TRUE) {

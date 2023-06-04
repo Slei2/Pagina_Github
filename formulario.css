@@ -14,7 +14,29 @@ body{
     height: 100vh;
     display: flex;
     padding: 0 10px;
+
+  /* Animación de zoom del fondo */
+  background-size: cover;
+  animation: zoomBackground 10s linear infinite;
+
 }
+
+
+
+
+@keyframes zoomBackground {
+    0% {
+      background-size: 100%;
+    }
+    50% {
+      background-size: 120%;
+    }
+    100% {
+      background-size: 100%;
+    }
+  }
+
+
 .form{
     margin: auto;
     background-color: rgb(46, 44, 44);
@@ -102,14 +124,6 @@ body{
 .form_input:not(:placeholder-shown) ~ .form_line{
     transform: scale(1);
 }
-
-
-
-
-
-
-
-
 
 
 
