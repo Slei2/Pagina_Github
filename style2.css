@@ -187,6 +187,9 @@
   }
   .boton1 {
     margin: 300px;
+    border-style: none;
+  width: 200px;
+ background-color: #742373;
   }
   
   .boton2 {
