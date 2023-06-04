@@ -6,6 +6,11 @@
     <title>Humildes opiniones </title>
 
 <script>
+  
+  function irAlPrincipio() {
+            window.scrollTo(0, 0);
+        }
+  
   document.getElementById("btn-publicar").addEventListener("click", function() {
   var texto = document.getElementById("texto-publicacion").value;
 
@@ -64,6 +69,11 @@ var prevScrollpos = window.pageYOffset;
         <a href="index.html" style="text-decoration: none;">
     <li class="boton2">Home</li>
   </a>
+  
+  
+  <button class="boton1" onclick="irAlPrincipio()">Ir al principio</button>
+
+
     <a href="notificaciones.html" style="text-decoration: none;" >
     <li class="boton3">notificaciones</li>
   </a>
